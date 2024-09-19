@@ -56,28 +56,44 @@ Share QR codes with others.
 
 # How to Run the App
 Prerequisites:
+
 Flutter 3.0 and above
+
 Dart SDK
+
 Android/iOS Emulator or a physical device
+
 Steps to run:
+
 Clone the repository:
+
 git clone <https://github.com/priyankanit/KineticQR.git>
+
 cd KineticQR
 
 Install dependencies:
+
 flutter pub get
+
 Run the app on an emulator or a device:
 flutter run
 
 # Code Structure
 main.dart: Entry point of the application.
+
 QRGeneratorPage.dart: UI logic for generating and saving the QR code.
+
 QRScanPage.dart: UI logic for scanning QR codes.
+
 HomePage.dart: UI logic to navigate to the specific pages. 
 
 # Dependencies
 qr_code_scanner for scanning QR codes.
+
 qr_flutter for generating QR codes.
+
 path_provider for saving images.
+
 permission_handler for handling storage permissions.
+
 share_plus for sharing QR codes.
